@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: false,
-  "react/no-unescaped-entities": ["error", { forbid: [">", "'"] }],
+  extends: "next",
+  rules: {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+  },
 };
 
 export default nextConfig;

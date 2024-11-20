@@ -28,6 +28,7 @@
     "three": "^0.168.0"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^15.0.3",
     "@react-three/eslint-plugin": "^0.1.1",
     "@types/node": "^20",
     "@types/react": "^18",
